@@ -1,0 +1,16 @@
+# config/cucumber.yml
+
+---
+default: &default
+  URI=http://takehome.zeachable.com
+  FNAME=Budi
+  EMAIL=budiacctest@gmail.com
+  PASSWORD=Test1234
+  BROWSER=chrome
+  SET=production
+
+production:
+  <<: *default
+
+staging:
+  <<: *default
