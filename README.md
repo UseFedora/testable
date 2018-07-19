@@ -3,6 +3,7 @@
 ## Setup
 
 ## Install programs to Unix-based Machine
+Programing language and tools used for this framework:
 - ruby greater or equal 2.4.2
 - rvm/rbenv (https://rvm.io/rvm/install)
 - selenium-webdriver 
