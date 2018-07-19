@@ -10,5 +10,4 @@ module WatirHelper
     browser.driver.manage.timeouts.implicit_wait = 5
     return browser
   end
-
 end
