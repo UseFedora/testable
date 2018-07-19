@@ -1,18 +1,14 @@
 # Takehome for QA engineer position.
 
-*IMPORTANT: Fork this repository!* 
-
-## Task
-
-We created a test school with a course that contains 4 lecture.
-Your task is to write tests where you enroll in a course and complete it.
-We've setup Rspec and Cucumber in this repo.
-Feel free to choose one that fits you the best, or use any other e2e testing framework.
-
-
 ## Setup
 
-Install dependencies for Rspec or Cucumber if you choose to use one of them:
+## Install programs to Unix-based Machine
+- ruby greater or equal 2.4.2
+- rvm/rbenv (https://rvm.io/rvm/install)
+- selenium-webdriver 
+- watir
+
+Install dependencies for Cucumber and Watir
 ```
 gem install bundler
 ```
@@ -21,8 +17,4 @@ gem install bundler
 bundle install
 ```
 
-## Test school base url:
-
-* [takehome.zeachable.com](http://takehome.zeachable.com)
-
-Feel free to reach out if you have any questions!
+To run all the test suites just type `cucumber` in the command-line/terminal
