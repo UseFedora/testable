@@ -7,6 +7,7 @@
 - rvm/rbenv (https://rvm.io/rvm/install)
 - selenium-webdriver 
 - watir
+- cucumber
 
 Install dependencies for Cucumber and Watir
 ```
