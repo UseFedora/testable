@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
 gem "chromedriver-helper",    "~> 1.2"
