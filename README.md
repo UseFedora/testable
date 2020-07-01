@@ -30,7 +30,10 @@ bundle install
 
 ## Resources
 
+* [Intro to Cucumber Ruby](https://meaganwaller.com/intro-to-cucumber/)
 * [Capybara-Ruby](https://testautomationu.applitools.com/capybara-ruby/)
+* [Cucumber Ruby - Video Tutorial](https://www.youtube.com/watch?v=jcufT1xVhGA)
+* [Capybara Cheat Sheet](https://devhints.io/capybara)
 * [Selenium-Webdriver in Ruby](https://testautomationu.applitools.com/selenium-webdriver-with-ruby/)
 
 Feel free to reach out if you have any questions!
