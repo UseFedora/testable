@@ -4,11 +4,10 @@
 
 ## Task
 
-We created a test school with a course that contains lectures.
-Your task is to write tests where you enroll in a course and complete it.
-Please use Cucumber with Capybara. 
+We created a test school with a course that contains lectures. 
+Your task is to write tests where you enroll in the [My Awesome Course](https://takehome.zeachable.com/p/my-awesome-course) and complete the 2 lectures and a quiz.
 
-For sample code how to do assignment, please check `features/login.feature` and `features/step_definitions/login_steps.rb`
+Please use Cucumber with Capybara same as the login test that provided. For sample code how to do assignment, please check [`features/login.feature`](https://github.com/UseFedora/testable/blob/internal_assignment/features/login.feature) and [`features/step_definitions/login_steps.rb`](https://github.com/UseFedora/testable/blob/internal_assignment/features/step_definitions/login_steps.rb)
 
 #####Please submit your work using different branch and create pull a request. We will review it and get back to you once we have reviewed all the assignment that have been submitted.
 
