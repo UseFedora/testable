@@ -4,6 +4,7 @@ source "https://rubygems.org"
 
 gem "cucumber"
 gem "rspec"
+gem "rake"
 gem "webdrivers"
 gem "capybara"
-
+gem "pry"
