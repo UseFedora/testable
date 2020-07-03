@@ -7,7 +7,10 @@ Given("I am logged out") do
     visit "/"
     click_on "Login"
     expect(page).to have_text("Log In to takehome")
-    fill_in "Email Address", with: "ben+test3@example.com"
+end
+
+When("I log in to enroll") do
+    fill_in "Email Address", with: "ben+test5@example.com"
     fill_in "Password", with: "password"
     click_on "Log In"
     expect(page).to have_css("div.course-listing")

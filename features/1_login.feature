@@ -1,4 +1,4 @@
-# feature/login.feature
+# feature/1_login.feature
 Feature:
   As an user, I should be able to login to my school
 

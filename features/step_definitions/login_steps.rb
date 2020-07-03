@@ -9,7 +9,7 @@ When("I click Login link") do
 end
 
 When("I fill my credential") do
-  fill_in "Email Address", with: "ben+test3@example.com"
+  fill_in "Email Address", with: "ben+test5@example.com"
   fill_in "Password", with: "password"
   click_on "Log In"
 end
