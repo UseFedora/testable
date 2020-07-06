@@ -1,18 +1,20 @@
-# Given("I am on the course directory") do 
-#     visit "/courses"
-#     expect(page).to have_css(".course-listing")
-# end
-
-Given("I am logged out") do
+Given("I am not enrolled in the school") do
+    # Global variable in test might not be best practice, but I couldn't figure out a better way of getting around creating an account that doesn't already exist
+    # This will generate a 5 character string from [A..9]
+    $email="ben+#{rand(36**5).to_s(36)}@example.com"
     visit "/"
-    click_on "Login"
-    expect(page).to have_text("Log In to takehome")
+    click_on "Sign Up"
+    expect(page).to have_text("Sign Up to takehome")
 end
 
-When("I log in to enroll") do
-    fill_in "Email Address", with: "ben+test5@example.com"
+When("I sign up to the school") do
+    fill_in "Full Name", with: "Ben"
+    fill_in "Email Address", with: $email
     fill_in "Password", with: "password"
-    click_on "Log In"
+    fill_in "Confirm Password", with: "password"
+    check "user_unsubscribe_from_marketing_emails"
+    check "user_agreed_to_terms"
+    click_on "Sign Up"
     expect(page).to have_css("div.course-listing")
 end
 

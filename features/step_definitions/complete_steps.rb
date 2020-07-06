@@ -5,7 +5,7 @@ Given("I am logged out of the school") do
 end
 
 When("I log in to complete a course") do
-    fill_in "Email Address", with: "ben+test5@example.com"
+    fill_in "Email Address", with: $email
     fill_in "Password", with: "password"
     click_on "Log In"
     expect(page).to have_css("div.course-listing")
